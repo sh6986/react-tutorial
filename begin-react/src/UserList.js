@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 function User({user, onRemove, onToggle}) {
     const {username, email, id, active} = user;
+    
     return (
         <div>
             <b
