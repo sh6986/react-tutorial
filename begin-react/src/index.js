@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hello from './Hello';
+import Counter from './Counter';
 
 ReactDOM.render(
-  <Hello name="react" isSpecial/>,
+  <Counter />,
   document.getElementById('root')
 );
 
